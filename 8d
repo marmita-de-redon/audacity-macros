@@ -1,0 +1,88 @@
+SelectTracks:Mode="Set" Track="0" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="0" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="1" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="1" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="2" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="2" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="3" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+SelectTracks:Mode="Set" Track="3" TrackCount="1"
+SelTrackStartToEnd:
+Duplicate:
+NoAction:
+NoAction:
+NoAction:
+SelectTracks:Mode="Set" Track="0"
+SetTrack:Mute="1"
+SelectTracks:Mode="Set" Track="1"
+SetTrack:Mute="1"
+SelectTracks:Mode="Set" Track="2"
+SetTrack:Mute="1"
+SelectTracks:Mode="Set" Track="3"
+SetTrack:Mute="1"
+NoAction:
+NoAction:
+NoAction:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+LastTrack:
+TrackMoveTop:
+NoAction:
+NoAction:
+NoAction:
+SelectTracks:Mode="Set" Track="0" TrackCount="1"
+SetTrack:Name="P1-pL-ChL" Gain="0" Height="120" Pan="-100"
+SelectTracks:Mode="Set" Track="1" TrackCount="1"
+SetTrack:Name="P1-pL-ChR" Gain="-4" Height="120" Pan="100"
+CursTrackStart:
+Select:End="0.0009" Mode="Set" Start="0" Track="1"
+Repeat:Count="1"
+NoAction:
+SelectTracks:Mode="Set" Track="2" TrackCount="1"
+SetTrack:Name="P2-pMidL-ChL" Gain="-1" Height="120" Pan="-100"
+SelectTracks:Mode="Set" Track="3" TrackCount="1"
+SetTrack:Name="P2-pMidL-ChR" Gain="-3" Height="120" Pan="100"
+CursTrackStart:
+Select:End="0.0006" Mode="Set" Start="0" Track="3"
+Repeat:Count="1"
+NoAction:
+SelectTracks:Mode="Set" Track="4" TrackCount="1"
+SetTrack:Name="P3-pMidR-ChL" Gain="-3" Height="120" Pan="-100"
+CursTrackStart:
+Select:End="0.0006" Mode="Set" Start="0" Track="4"
+Repeat:Count="1"
+SelectTracks:Mode="Set" Track="5" TrackCount="1"
+SetTrack:Name="P3-pMidR-ChR" Gain="-1" Height="120" Pan="100"
+NoAction:
+SelectTracks:Mode="Set" Track="6" TrackCount="1"
+SetTrack:Name="P4-pR-ChL" Gain="-4" Height="120" Pan="-100"
+CursTrackStart:
+Select:End="0.0009" Mode="Set" Start="0" Track="6"
+Repeat:Count="1"
+SelectTracks:Mode="Set" Track="7" TrackCount="1"
+SetTrack:Name="P4-pR-ChR" Gain="0" Height="120" Pan="100"
